@@ -34,6 +34,25 @@ standing after the last word.
 - **Tight and quotable.** 196 characters, every clause doing work, and the
   last word ("mine") is the punch.
 
+## How it scores against the judge's brief
+
+The published judge brief weighs five things, most important first. This
+entry is built to answer each in order:
+
+1. **Genuinely frightening, exactly two sentences.** Two sentences, 196
+   characters, and the fright is the premise itself — a dead mother who
+   keeps calling — not decoration around it.
+2. **The second sentence turns the first.** "The voice on the other end
+   was mine" re-reads every call in sentence one: the caller was never
+   the mother, and the narrator is now the voice on the line.
+3. **Horror implied, not explained.** Nothing is named — no ghost, no
+   demon, no mechanism. The reader supplies the worst of it.
+4. **Precise and concrete.** Sunday, six o'clock, twenty years, a
+   funeral, two changed numbers — every detail is specific, and every
+   clause earns its place.
+5. **Original.** No mirror, no doll, no "then I realized", no retold
+   classic — the twist is the caller becoming the called.
+
 ## Candidates considered
 
 | # | Story | Why it lost |

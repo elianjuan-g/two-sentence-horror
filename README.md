@@ -68,3 +68,25 @@ entry is built to answer each in order:
 - `check.mjs` — local gate check (exactly two sentences, 1–400 characters,
   valid UTF-8, no trailing newline, exact match with the chosen story).
 - `LICENSE` — MIT.
+
+## Verification
+
+Run the local gate check before submitting — it runs `main.ts`, then
+verifies `/output/entry.txt` against the competition gate (exactly two
+sentences, 1–400 characters, valid UTF-8, no trailing newline) and that
+the text is exactly the chosen story:
+
+```sh
+node check.mjs
+```
+
+Expected output on a passing entry:
+
+```text
+OK: 196 chars, 196 bytes, 2 sentences, exact match
+```
+
+Any failure exits non-zero with the reason on the line that failed (wrong
+text, wrong sentence count, character count outside 1–400, trailing
+newline, or a UTF-8 BOM). Requires Node 22 or later (`main.ts` is run as
+TypeScript directly, as the grader does).
